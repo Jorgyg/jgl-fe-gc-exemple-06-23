@@ -1,0 +1,42 @@
+body {
+    width: 960px;
+    display: grid; 
+    grid-template-columns: 0.2fr 1.6fr; 
+  grid-template-rows:  0.2fr 1.8fr;
+    gap: 1px 30px; 
+    grid-template-areas: 
+    "i1 ."
+    "i1 ."; 
+}
+
+ul{
+    grid-area: i1;
+    padding-top: 5em;
+}
+h1{
+    color: green;
+    
+}
+
+span{
+    color: orange;
+}
+.text {
+    border: 1px solid rgb(226, 226, 226);
+
+}
+h2{
+    color: rgb(99, 255, 47);
+    padding-left: 10px;
+    text-decoration: underline;
+}
+h3 {
+    color: rgb(255, 181, 43);
+    padding-left: 10px;
+}
+p {
+    padding-left: 10px;
+}
+
+
+    

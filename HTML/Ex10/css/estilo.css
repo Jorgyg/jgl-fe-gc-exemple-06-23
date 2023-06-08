@@ -1,0 +1,88 @@
+html {
+    background-color: rgb(226, 226, 226);
+}
+body {
+    width: 960px;
+    border-radius: 30px;
+    background-color: white;
+    height: 45em;
+
+}
+
+
+.table {
+    display: grid; 
+    grid-template-columns: 0.2fr 1.6fr; 
+    grid-template-rows:  0.2fr 1.8fr;
+    gap: 0px 30px; 
+    grid-template-areas: 
+    "i1 ."
+    "i1 ."; 
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul{
+    grid-area: i1;
+    padding-top: 5em;
+}
+h1{
+    color: green;
+    word-spacing: 20px;
+    letter-spacing: 4px;
+    
+}
+
+span{
+    color: orange;
+}
+.text {
+    padding-left: 10px;
+    border: 1px solid rgb(226, 226, 226);
+    width: 750px;
+    background: linear-gradient(rgb(226, 226, 226), 1%, white);
+}
+h2{
+    color: rgb(99, 255, 47);
+    padding-left: 10px;
+    text-decoration: underline;
+}
+h3 {
+    color: rgb(255, 181, 43);
+    padding-left: 10px;
+}
+p {
+    padding-left: 10px;
+}
+a {
+    text-decoration: none;
+    color: #000;
+    line-height: 2em;
+}
+li {
+    list-style:none;
+    text-align: center;
+}
+li:hover {
+    background-color: rgba(207, 174, 174, 0.764);
+    opacity: .7;
+}
+.ini {
+    width: 6em;
+    background: linear-gradient(white, 50%, rgb(255, 111, 111));
+    opacity: .7;
+    border: 1px solid rgb(255, 111, 111);
+    font-weight: bold;
+}
+
+.fin {
+    background: linear-gradient( white, 50%, rgb(189, 255, 89));
+    opacity: .7;
+    border: 1px solid rgb(189, 255, 89);
+}
+
+

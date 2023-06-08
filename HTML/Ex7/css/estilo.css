@@ -1,0 +1,25 @@
+h1{
+    color: green;
+    text-align: center;
+}
+
+span{
+    color: orange;
+}
+div {
+    border: 1px solid #000;
+    
+}
+h2{
+    color: rgb(99, 255, 47);
+    padding-left: 10px;
+    text-decoration: underline;
+}
+h3 {
+    color: rgb(255, 181, 43);
+    padding-left: 10px;
+}
+p {
+    padding-left: 10px;
+}
+
