@@ -1,0 +1,34 @@
+table{
+    border: 5px outset rgb(255, 255, 255);
+    border-spacing: 0;
+    
+}
+
+th {
+    border: 2px solid rgb(3, 218, 215);
+    width: 7em;
+}
+td {
+    border: 2px solid rgb(3, 218, 215);
+    padding: 0%;
+}
+
+.trTitle{
+    background-color: rgb(15, 71, 15);
+    color: rgb(213, 255, 149);
+    text-align: center;
+}
+
+.tr1{
+    background-color: rgb(217, 253, 164);
+    opacity: .7;
+}
+
+.tr2 {
+    background-color: rgb(18, 189, 70);
+    opacity: .7;
+}
+
+.th-act{
+    width: 11em;
+}

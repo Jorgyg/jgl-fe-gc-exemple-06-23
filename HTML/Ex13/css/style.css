@@ -1,0 +1,44 @@
+
+table {
+    width: 100%;
+    text-align: center;
+    padding: 20px;
+    margin-top: -40px;
+}
+h4 {
+    margin-top: -5px;
+    text-align: center;
+}
+th {
+    border: 2px inset black;
+}
+.back-gr{
+    background-color: rgb(191, 235, 125);
+    opacity: .7;
+}
+
+.back-cyan {
+    background-color: cyan;
+    opacity: .7;
+}
+
+.span-cyan{
+    display: flex;
+    flex-direction: row;
+}
+
+.back-pink {
+    background-color: pink;
+    opacity: .7;
+}
+
+.span-pink{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 24px;
+}
+
+.red {
+    color: red;
+    border-color: red;
+}

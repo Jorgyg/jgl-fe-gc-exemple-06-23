@@ -1,0 +1,28 @@
+div{
+    display: flex;
+    align-items: center;
+    margin: auto;
+    background:url("https://storage.googleapis.com/oceanwide_web/media-dynamic/cache/widen_1600/media/default/0001/05/30627f237982b80399f5d2db0c8daeeea38a5950.jpeg");
+    width: 800px;
+    height: 700px;
+}
+table {
+    margin: auto;
+    border: 2px outset gray;
+    border-spacing: 1;
+    background-color: rgb(255, 255, 149);
+}
+tr{
+    border-spacing: 0;
+    text-align: center;
+}
+th{
+    border: 2px solid black;
+    background-color: white;
+    width: 40em;
+    height: 1.3em;
+}
+
+td {
+    border: 2px solid black;
+}

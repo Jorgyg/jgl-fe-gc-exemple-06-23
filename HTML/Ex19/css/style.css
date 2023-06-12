@@ -1,0 +1,11 @@
+td {
+    border: 1px double black;
+}
+
+th {
+    border: 1px double black;
+}
+
+table {
+    border: 1px solid black;
+}

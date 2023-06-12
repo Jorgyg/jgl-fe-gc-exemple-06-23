@@ -1,0 +1,23 @@
+table {
+    width: 700px;
+    text-align: center;
+    color: rgb(61, 2, 2);
+    border: 2px outset gray;
+    background:url(https://png.pngtree.com/background/20210716/original/pngtree-cute-dog-tiling-background-silhouette-small-animal-picture-image_1349642.jpg);
+}
+
+td {
+    border-style: inset;
+    border-width: 2px;
+    box-shadow: inset 1px 1px 1px black ;
+}
+.td-1 {
+    background-color: rgb(0, 170, 0);
+}
+.td-2 {
+    background-color: rgb(255, 191, 94);
+}
+.td-3{
+    background-color: rgb(246, 255, 116);
+}
+

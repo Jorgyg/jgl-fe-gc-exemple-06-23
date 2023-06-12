@@ -1,0 +1,19 @@
+.ant, .post {
+    height: 100px;
+    width: 200px;
+    border: 2px solid blue;
+}
+
+.mitg {
+    height: 300px;
+    width: 400px;
+    border: 4px solid red;
+    margin: 20px;
+}
+
+div{
+    background: url("../img/f01.png") left bottom repeat-x,
+    url("../img/f02.png") left bottom no-repeat,
+    url("../img/f03.png") left top repeat-x;
+    background-color: rgb(135, 202, 249);
+}
