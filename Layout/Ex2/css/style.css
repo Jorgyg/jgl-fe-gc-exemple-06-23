@@ -1,0 +1,221 @@
+body{
+    background-image: url("https://e0.pxfuel.com/wallpapers/507/756/desktop-wallpaper-nature-bing-com.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo{
+    width: 30px;
+    height: 30px;
+}
+
+.m-b{
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    padding: 5px;
+    margin-right: 30px;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+
+}
+
+.head{
+    margin-right: 40px;
+}
+
+.chat{
+    color: rgb(94, 94, 255);
+    margin-left: 20px;
+    margin-right: 5px;
+}
+
+.three-points{
+    color: white;
+    margin-right: 150px;
+}
+
+.lang{
+    font-weight: 530;
+    margin-right: 25px;
+}
+
+.account{
+    color: white;
+    margin-left: 5px;
+    font-size: 35px!important;
+    margin-right: 20px;
+}
+
+.search{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.search-bar{
+    display: flex;
+    background-color: white;
+    height: 50px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: end;
+    width: 531px;
+    margin-top: 100px;
+}
+
+.space{
+    height: 40px;
+}
+
+.space2{
+    height: 220px;
+}
+
+.bar-logs{
+    color: rgb(23, 121, 121);
+    font-size: 30px!important;
+    margin-right: 5px;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    border: none;
+    font-size: 20px;
+}
+
+.pre-info{
+    display: flex;
+    justify-content: space-between;
+}
+.expand{
+    padding: 10px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    opacity: .8;
+    border-radius: 10px;
+    display: flex;
+    margin-left: 6px;
+}
+
+.sep{
+    margin-left: 24px;
+}
+
+.info{
+    padding: 10px;
+    background-color: rgb(41, 41, 41);
+    color: white;
+    opacity: .8;
+    border-radius: 10px;
+    display: flex;
+}
+
+.pre2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.sep2{
+    margin-right: 10px;
+}
+
+.info-section{
+    display: flex;
+    margin-top: 10px;
+    margin-left: 11px;
+    margin-right: 30px;
+}
+
+.photo{
+    width: 280px;
+    height: 128px;
+    display: flex;
+    align-content: end;
+    border-radius: 10px;
+    background-size: 50%;
+    margin-left: 15px;
+}
+
+.p1{
+    background-image: url("https://images.ecestaticos.com/XsMF4gbtIOxdVhEFKW-XSO_4yko=/0x0:2272x1512/600x450/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F2a3%2F9d7%2F157%2F2a39d715733883de0389d62fd2ef6dbc.jpg");
+}
+
+.p2{
+    background-image: url("https://phantom-elmundo.unidadeditorial.es/65e1b5e6a029e1f5c6a409bf60a5c518/crop/0x0/2458x1638/resize/746/f/webp/assets/multimedia/imagenes/2023/06/13/16866550083235.jpg");
+}
+
+.p3{
+    background-image: url("https://images.ecestaticos.com/7EpBTqB_0wfDvKamHhlgPl6gcqA=/0x0:2272x1515/600x450/filters:fill(white):format(jpg)/f.elconfidencial.com%2Foriginal%2F761%2Fa58%2Ff31%2F761a58f31c07fdf4135d62d71d09db34.jpg");
+}
+
+.p4{
+    background-image: url("https://phantom-elmundo.unidadeditorial.es/97c94d97e714f4ef33f190ec6c88f0f3/resize/746/f/webp/assets/multimedia/imagenes/2023/06/13/16866743993883.jpg");
+}
+
+.p5{
+    background-image: url("https://static.eldiario.es/clip/02ce1c9f-644b-4775-8a0a-5434ac35d736_16-9-aspect-ratio_75p_0.webp");
+}
+
+.diario{
+    color: white!important;
+    margin: 5px;
+}
+.msg{
+    margin-left: 10px;
+    margin-top: 60px;
+    
+}
+.title{
+    color: white!important;
+    font-weight: bold;
+
+}
+
+footer{
+    position: absolute;
+    bottom: 0 !important;
+    left: 0;
+    height: 60px;
+    width: 100%;
+    background-color: rgb(44, 44, 44);
+}
+
+.foot{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fr-foot{
+    margin-left: 20px;
+}
+.fr-foot2{
+    margin-right: 30px;
+}
+
+.copy{
+    margin-right: 5px;
+    font-size: 13px!important;
+}
+
+.footer{
+    color: rgb(188, 188, 188);
+    font-size: 15px;
+    margin-left: 10px;
+}
