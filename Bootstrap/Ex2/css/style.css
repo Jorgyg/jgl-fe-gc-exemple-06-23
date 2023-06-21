@@ -1,0 +1,28 @@
+body{
+    background-color: rgb(234, 234, 234);
+}
+
+.container{
+    width: 150vh;
+}
+
+h3{
+    color: rgb(71, 178, 255);
+}
+
+input{
+    border-color: gray!important;
+}
+
+svg{
+    color: rgb(71, 178, 255);
+}
+
+.text{
+    padding-bottom: 100px!important;
+}
+
+button{
+    color: white;
+    background-color: rgb(71, 178, 255);
+}

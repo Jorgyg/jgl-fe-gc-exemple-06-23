@@ -1,0 +1,39 @@
+.principal{
+    padding-left: 14vh;
+    padding-right: 17vh;
+
+}
+
+.ml{
+    margin-left: -10px;
+}
+
+#black{
+    color: black;
+}
+
+.border-g{
+    border-color: rgb(182, 182, 182);
+}
+
+.gray{
+    color: rgb(182, 182, 182);
+}
+
+.back-gray{
+    background-color: rgb(240, 240, 240);
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.rond1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.rond2{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

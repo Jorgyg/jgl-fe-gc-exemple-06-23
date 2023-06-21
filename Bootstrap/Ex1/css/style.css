@@ -1,0 +1,21 @@
+body{
+    background-image: url("https://img.freepik.com/free-vector/realistic-style-technology-particle-background_23-2148426704.jpg");
+    background-size: 100%;
+}
+
+.container{
+    height: 100vh;
+    width: 90vh;
+}
+
+.gray{
+    color: rgb(172, 172, 172);
+}
+
+.bg-gray{
+    background-color: rgb(172, 172, 172);
+}
+
+.ggl{
+    width: 130px;
+}

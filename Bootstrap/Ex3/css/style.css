@@ -1,0 +1,79 @@
+body{
+    background-color: rgb(203, 203, 203);
+    font-size: 12px;
+}
+.container{
+    width: 100%;
+}
+
+.rod{
+    width: 25px;
+    height: 25px;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.u{
+    margin-top: -8px;
+    margin-right: -2px;
+}
+
+.them{
+    font-size: 20px;
+}
+
+.blue{
+    background-color: rgb(57, 120, 208);
+    color: white;
+}
+
+.sch{
+    height: 30px;
+    padding-right: 15px;
+}
+
+.sear{
+    margin-left: -20px;
+    margin-top: -3px;
+}
+
+.fin{
+    border-bottom-right-radius: 10px;
+}
+
+.marg{
+    margin-left: 50vh;
+}
+
+.sub{
+    margin-left: 81.6vh;
+    margin-top: -5vh;
+}
+
+.arrow{
+    margin-left: 80vh;
+    margin-top: -15vh;
+}
+
+.arrow2{
+    margin-left: 78.9vh;
+    margin-top: -9vh;
+}
+
+.sub2{
+    margin-left: 50vh;
+    margin-top: -5vh;
+
+}
+
+.bg-gray{
+    background-color: rgb(85, 85, 85);
+}
+
+.bg-gray-2{
+    background-color: rgb(66, 66, 66);
+}
+
+.color-gray{
+    color: rgb(85, 85, 85);
+}
