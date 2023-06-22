@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>  
+        
+        let voc = ["a", "e", "i", "o", "u"];
+        let word = prompt("Escribe una palabra");
+        let sumaV = 0;
+        //Hacemos el for comprovando en el array de vocales cada letra para ver si coincide
+        for (let i = 0; i < word.length; i++) {
+            for (let c = 0; c < voc.length; c++) {
+                if(word[i] == voc[c]){
+                    sumaV++;
+                }
+            }                    
+        }
+
+        console.log("La suma total de vocales es: " + sumaV);
+        
+    </script>
+</body>
+</html>
