@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let arrayUno = [1, 2, 3];
+        let arrayDos = [4, 5, 6];
+        let aJuntos = [];
+        //Cambiamos el DOM y el Arrays
+        const juntArray = (a1, a2, aJu) => {
+            for (let i = 0; i < arrayUno.length; i++) {
+                aJu.push(a1[i]);
+                aJu.push(a2[i]);             
+            }
+        }
+        juntArray(arrayUno, arrayDos, aJuntos);
+        console.log(aJuntos);                
+    </script>
+</body>
+</html>

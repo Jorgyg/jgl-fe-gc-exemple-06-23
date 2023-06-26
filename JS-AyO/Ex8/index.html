@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let javascript1 = ["DOM", "BOM", "Funciones", "Arrays"];
+        let javascript2 = ["Objetos", "Arrays", "ParseInt"];
+        
+        const repite = (js1, js2) => {
+            for (let i = 0; i < js1.length; i++) {
+                for (let c = 0; c < js2.length; c++) {
+                    if(js1[i] == js2[c]){
+                        console.log(js1[i]);
+                    }                   
+                }           
+            }
+        }
+        repite(javascript1, javascript2);               
+    </script>
+</body>
+</html>

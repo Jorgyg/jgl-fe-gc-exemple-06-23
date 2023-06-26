@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let dni =[
+            {
+            nombre: "Jordi",
+            apellido: "Gras",
+            ciudad: "Reus",
+            },
+            {
+            nombre: "Julio",
+            apellido: "Iglesias",
+            ciudad: "Riudoms",
+            },
+            {
+            nombre: "Andres",
+            apellido: "Iniesta",
+            ciudad: "Fuente Albilla",
+            }        
+        ];
+        
+        const name = (person) => {
+            for (let i = 0; i < person.length; i++) {
+                console.log(person[i].apellido);
+                
+                
+            }
+        }
+
+        name(dni);
+    </script>
+</body>
+</html>

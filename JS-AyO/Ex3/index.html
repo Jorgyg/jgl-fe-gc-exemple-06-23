@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let javascript1 = ["DOM", "BOM", "Funciones", "Arrays"];
+        //Cambiamos el DOM y el Arrays
+        javascript1[0] = "Objetos";
+        javascript1[3] = "ArraysDifíciles";
+        //Hacemos una copia con los 2 nuevos elementos
+        let javascript2 = [javascript1[0], javascript1[3]];
+        //Buscamos el indice de Funciones
+        let index = javascript1.indexOf("Funciones");
+        console.log(javascript1);
+        console.log(javascript2);
+        console.log(index);
+    </script>
+</body>
+</html>

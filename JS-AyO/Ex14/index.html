@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let recetas = [{
+            "nombre" : "Pollo a la cerverza",
+            "dificultad" : "Baja",
+            "duracion" : "2 horas",
+            "ingredientes" : ["pollo", "cerveza", "sal", "pimienta", "cebolla"],
+            "categoria" : "carnes",
+            "autor" : {
+                "nombre" : "Carlos Arguiñano",
+                "restaurante" : "el suyo",
+                "estrellas" : 1
+                }
+            },
+            {
+                "nombre" : "Sorbete de limón",
+                "dificultad" : "Baja",
+                "duracion" : "0.5 horas",
+                "ingredientes" : ["4 limones", "1 litro de agua", "1 kg de azúcar", "hielo"],
+                "categoria" : "postres",
+                "autor" : {
+                "nombre" : "Juan Mari Arzak",
+                "restaurante" : "sorbetilandia",
+                "estrellas" : 1
+                }
+            },
+            {
+                "nombre" : "Patatas fritas",
+                "dificultad" : "Baja",
+                "duracion" : "0.3 horas",
+                "ingredientes" : ["4 patatas", "1 litro de aceite", "sal"],
+                "categoria" : "verduras",
+                "autor" : {
+                "nombre" : "Jorge Graso",
+                "restaurante" : "no se",
+                "estrellas" : 1
+                }
+            }
+]
+
+
+        
+        const show = (receta) => {
+            console.log("Nombre: " + receta.nombre);
+            console.log("Tiempo: " + receta.duracion);
+            console.log("Ingredientes: ");          
+            receta.ingredientes.forEach(element => {
+                console.log(element);
+            });
+        }
+        
+        recetas.forEach(receta => {
+            show(receta);
+        });
+        
+    </script>
+</body>
+</html>

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let array = [1, 6, 13, 45, 2, 78, 1029, 67, 39, 12];
+        let aPares = [];
+        let aImpares = [];
+
+        const div = (array, aPares, aImpares) => {
+            for (let i = 0; i < array.length; i++) {
+                if(array[i] % 2 == 0){
+                    aPares.push(array[i]);
+                } else {
+                    aImpares.push(array[i]);
+                }           
+            }
+        }
+        div(array, aPares, aImpares);
+        console.log(aPares);              
+        console.log(aImpares);
+        
+        let conc = aPares.concat(aImpares);
+        console.log(conc);              
+
+    </script>
+</body>
+</html>

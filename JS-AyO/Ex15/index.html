@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        class receta{
+            constructor(nombre, dificultad, duracion, ingredientes, categoria) {
+                this.nombre = nombre;
+                this.dificultad = dificultad;
+                this.duracion = duracion;
+                this.ingredientes = ingredientes;
+                this.categoria = categoria;
+            }
+        }
+        let receta1 = new receta("Pollo a la cerverza", "Baja", "2 horas", ["pollo", "cerveza", "sal", "pimienta", "cebolla"], "carnes");
+        let receta2 = new receta("Sorbete de limón", "Baja","0.5 horas", ["4 limones", "1 litro de agua", "1 kg de azúcar", "hielo"],"postres");
+        let receta3 = new receta("Patatas fritas", "Baja", "0.3 horas", ["4 patatas", "1 litro de aceite", "sal"], "verduras");
+
+        
+        const show = (receta) => {
+            console.log("Nombre: " + receta.nombre);
+            console.log("Tiempo: " + receta.duracion);
+            console.log("Ingredientes: ");
+            receta.ingredientes.forEach(element => {
+                console.log(element);
+            });
+        }       
+        show(receta1);
+        show(receta2);
+        show(receta3);
+        
+    </script>
+</body>
+</html>
