@@ -2,8 +2,8 @@
     width: 300px;
     margin: 0 auto;
     text-align: center;
-    background-color: #f0f0f0;
-    border: 2px solid #ccc;
+    background-color: rgb(233, 227, 227);
+    border: 2px solid rgb(171, 171, 171);
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -14,7 +14,7 @@
     font-size: 20px;
     margin-bottom: 10px;
     border: none;
-    background-color: #fff;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 0 2px 1px black;
 }
@@ -53,8 +53,6 @@ button {
     grid-column: 1 / span 1;
 }
 
-.borr:hover,
-.op:hover,
-.res:hover {
+.borr:hover, .op:hover, .res:hover {
     background-color: gray;
 }
