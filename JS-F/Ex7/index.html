@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const lib = (num) => {               
+            console.log(num * 0.86);                         
+        }
+        const dol = (num) => {
+            console.log(num * 1.28611);              
+
+        }
+        const yen = (num) => {
+            console.log(num * 129.852);              
+        }
+        let num = prompt("Dime una cantidad de euros");           
+        let divisa = prompt("A que divisa quires cambiar? \n 1-libras \n 2-dolares \n 3-yenes");
+
+        if(divisa == 1){
+            lib(num);
+        } else if(divisa == 2){
+            dol(num);
+        } else {
+            yen(num);
+        }
+    </script>
+</body>
+</html>

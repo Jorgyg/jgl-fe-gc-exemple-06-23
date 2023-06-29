@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>          
+        const circ = (radio) => {               
+            console.log((radio * radio)*Math.PI);                         
+        }
+        const tring = (base, altura) => {
+            console.log((base * altura)/2);              
+
+        }
+        const cuad = (lado) => {
+            console.log(lado * lado);              
+        }
+        let figura = prompt("Que figura quires calcular? \n 1-Circulo \n 2-Triangulo \n 3-Cuadrado");
+
+        if(figura == 1){
+            let radio = prompt("Radio del circulo?");
+            circ(radio);
+        } else if(figura == 2){
+            let base = prompt("Base del triangulo?");
+            let altura = prompt("Altura del triangulo?");
+            tring(base, altura);
+        } else {
+            let lado = prompt("Lado del cuadrado");
+            cuad(lado);
+        }
+
+    </script>
+</body>
+</html>

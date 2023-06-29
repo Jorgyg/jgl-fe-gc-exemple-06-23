@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let dim = prompt('Tamaño de arrays:');      
+
+        const genA = (dim) => {
+            for (let i = 0; i < dim; i++) {
+                array1.push(Math.floor(Math.random() * 100) + 1);
+            }
+            array2 = array1.slice();
+        }
+
+        let array1 = [];
+        let array2 = [];
+        genA(dim);
+
+        const multA = (array1, array2) => {
+            let suma = [];           
+            for (let i = 0; i < dim; i++) {
+                suma.push(array1[i] * array2[i]);
+            }           
+            console.log('Array 1: ' +  array1);
+            console.log('Array 2: ' + array2);
+            console.log('Array multiplicado: ' + suma);
+        }
+        multA(array1, array2);
+
+
+
+    </script>
+</body>
+</html>

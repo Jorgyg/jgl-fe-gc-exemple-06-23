@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let array = [];
+        const llenar = (array) => {
+            for (let i = 0; i < 10; i++) {
+                array.push(prompt("Di un numero: "));
+            }      
+        }
+        const func = (array) => {
+            for (let i = 0; i < 10; i++) {
+                console.log("Index- " + (i + 1) + " valor- " + array[i]);         
+            } 
+        }
+        llenar(array);
+        func(array);                
+    </script>
+</body>
+</html>

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script> 
+        let num = [];
+        let numD = [];
+        let tamaño = prompt("Tamaño del array:");
+
+        const numDigit = () => {
+
+            let dig = prompt("Introduce un digito:");   
+            for (var i = 0; i < tamaño; i++) {
+                num.push(Math.floor(Math.random() * 300) + 1);
+                if(num[i] % 10 == dig){
+                    numD.push(num[i]);
+                }
+            }
+            console.log(numD);
+        }
+
+        numDigit();
+
+    </script>
+</body>
+</html>

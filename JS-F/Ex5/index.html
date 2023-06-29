@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let num = prompt("Dime un numero");
+        const func = (num) => {
+            let sum = (num % 2).toString();
+            while(num > 1) {
+                num = parseInt(num/2);
+                sum = (num % 2) + sum;
+
+            }
+            console.log("El codigo binario es: " + sum);         
+        }
+        func(num);                
+    </script>
+</body>
+</html>

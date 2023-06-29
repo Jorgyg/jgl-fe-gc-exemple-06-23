@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let array = [];
+        let num = prompt("Tamaño del array");
+        const llenar = (array, num) => {
+            for (let i = 0; i < num; i++) {
+                array.push(prompt("Di un numero: "));
+            }      
+        }
+        const func = (array, num) => {
+            let sum = 0;
+            for (let i = 0; i < num; i++) {
+                console.log("Index- " + (i + 1) + " valor- " + array[i]);
+                sum+= +array[i];         
+            }
+            console.log("La suma de los valores es: " + sum); 
+        }
+        llenar(array, num);
+        func(array, num);                
+    </script>
+</body>
+</html>

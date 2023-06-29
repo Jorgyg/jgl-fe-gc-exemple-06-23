@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        const primo = (num) => {
+            if (num < 2) {
+                return false;
+            }        
+            for (let i = 2; i < num; i++) {
+                if (num % i === 0) {
+                    return false;
+                }
+            }     
+            return true;
+        }
+        let tamaño = prompt('Dime el tamaño');
+        let numPrimos = [];
+        while (numPrimos.length < tamaño) {
+            let num = Math.floor(Math.random() * 100) + 1;        
+            if (primo(num)) {
+                numPrimos.push(num);
+            }
+        }
+        let max = numPrimos[0];
+        for (let i = 1; i < numPrimos.length; i++) {
+            if (numPrimos[i] > max) {
+                max= numPrimos[i];
+            }
+        }
+        console.log('El numero primo mas grande es: ' +  max);
+    </script>
+</body>
+</html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>      
+        let num = prompt("Dime un numero");
+        const func = (num) => {
+            let sum = 1;
+            for (let i = num; i > 1; i--) {
+                sum = sum*i;
+            }
+            console.log("El factorial es: " + sum);         
+        }
+        func(num);         
+    </script>
+</body>
+</html>
