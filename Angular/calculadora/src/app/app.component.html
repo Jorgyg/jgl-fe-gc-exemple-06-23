@@ -1,0 +1,37 @@
+<div id="body">
+  <div class="calculator">
+    <input type="text" class="form-control py-5 bg-white border-0" id="display" [(ngModel)]="numC" disabled>
+    <div class="d-flex bg-secondary">
+      <div class="container">
+        <div class="row">
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('9')">9</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('8')">8</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('7')">7</button></div>
+        </div>
+        <div class="row">
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('6')">6</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('5')">5</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('4')">4</button></div>
+        </div>
+        <div class="row">
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('3')">3</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('2')">2</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('1')">1</button></div>
+        </div>
+        <div class="row">
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('.')">.</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('0')">0</button></div>
+          <div class="col p-3"><button type="button" class="btn text-white btn-block" (click)="disp('00')">00</button></div>
+        </div>
+      </div>  
+      <div class="ml-3 mr-3">
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="delete()">del</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' /' )">/</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' X ')">X</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' - ')">-</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' + ')">+</button></div>
+        <div class="row bg-primary p-2 px-3"><button type="button" class="btn text-white btn-block" (click)="calculate()">=</button></div>
+      </div>
+    </div>
+  </div>
+</div>
