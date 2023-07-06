@@ -10,9 +10,10 @@ const show = (value) => {
 const operator = (value) => {
   operatorA.push(value);
   let display = document.getElementById('display');
-  numbers.push(+display.value);
+  numbers.push(+number);
   display.value += value;
   number = '';
+
 };
 
 const clearC = () => {
@@ -25,7 +26,7 @@ const clearC = () => {
 
 const calculate = () => {
     numbers.push(+number);
-  let display = document.getElementById('display');
+    let display = document.getElementById('display');
 
 
   for (let i = 0; i < operatorA.length; i++) {
@@ -45,7 +46,6 @@ const calculate = () => {
       i--;
     }
   }
-  console.log(numbers);
   let totalNumber = numbers[0];
 
   for (let i = 0; i < operatorA.length; i++) {
