@@ -26,10 +26,10 @@
       </div>  
       <div class="ml-3 mr-3">
         <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="delete()">del</button></div>
-        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' /' )">/</button></div>
-        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' X ')">X</button></div>
-        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' - ')">-</button></div>
-        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="disp(' + ')">+</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="operator('/' )">/</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="operator('X')">X</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="operator('-')">-</button></div>
+        <div class="row bg-primary p-1 px-3"><button type="button" class="btn text-white btn-block" (click)="operator('+')">+</button></div>
         <div class="row bg-primary p-2 px-3"><button type="button" class="btn text-white btn-block" (click)="calculate()">=</button></div>
       </div>
     </div>
